@@ -1,29 +1,27 @@
 body{
-    background-color: #2D54FA;
-    font-family: sans-serif;
-    padding: 4em;
+    background-color: #CAABF0;
+    font-family: cursive;
+    padding: 5%;
 }
 
-a{
-    text-decoration: none;
+.encabezado{
+    background-color: #BBF09E;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
-.fondoBlanco{
-    border: 20px solid white;
-    border-radius: 1em;
-    background-color: white;
+#picture_welcome{
+    margin: 2%;
+    width: 10%;
+    border-radius: 47%;
+    display: inline-block;
+    border: 1px solid;
 }
 
-.textoI{
-    text-align: center;
-    font-size: 1.6em;
-    color: palevioletred;
-}
-
-.fondoMorado{
-    background-color: #ccafcf;
-}
-
-.div1{
-    padding: 1em;
+.encabezado .titulo{
+    display: inline-block;
+    margin-left: 23%;
+    margin-top: 0px;
 }
