@@ -1,0 +1,48 @@
+body{
+    padding: 5px;
+}
+
+.navegacion{
+    float: right;
+}
+
+.link{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.opciones{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin: 5px;
+}
+
+.opciones .imagen{
+    width: 40px;
+}
+
+.opciones:hover{
+    background-color: #c6c6c6;
+}
+
+.boton-entrar{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.boton-entrar .imagen{
+    height: 50px;
+}
+
+.buscador{
+    height: 25px;
+    width: 500px;
+}
