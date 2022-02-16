@@ -1,0 +1,34 @@
+body{
+    background-color: #CAABF0;
+    font-family: cursive;
+    padding: 3%;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    background-color: #BBF09E;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 70%;
+}
+
+.encabezado .imagen{
+    width: 9%;
+    height: 9%;dy
+    flex-grow: 0;
+}
+
+.encabezado .nombre{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.foto_propia{
+    width: 14%;
+    height: 14%;
+    border-radius: 60%;
+}

@@ -2,70 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Clon de Google</title>
 </head>
 <body>
-    <nav class="navegacion">
-        <a class="link" href="https://mail.google.com/mail">Gmail</a>
-        <a class="link" href="https://www.google.com.mx/imghp?hl=es&authuser=0&ogbl">Imagenes</a>
+    <header class="menu">
         <a href="">
-            <div class="opciones">
-                <img  class="imagen" src="img/output-onlinepngtools.png" alt="">
-            </div>
+            Gmail
         </a>
-        <a class="boton-entrar" href="">
-            <div>
-                <img class="imagen" src="img/signin.png" alt="">
-            </div>
+        <a href="">
+            Imágenes
         </a>
-    </nav>
-    <br><br>
-    <br><br>
-    <br><br>
-    <br><br><br>
-    <center>
-        <img src="img/g.png" alt="">
-    </center>
-    <center>
-        <form name="buscador">
-            <input class="buscador" type="text">
-            <br>
-            <br>
-            <input type="button" value="Buscar con Google">
-            <input type="button" value="Me siento con suerte">
+        <a href="">
+            <img src="img/apps.png" alt="">
+        </a>
+        <a href="">
+            <img src="img/perfil.png" alt="">
+        </a>
+    </header>
+    <main class="main">
+        <img src="img/logoGoogle.png" alt="">
+        <form class="formulario">
+            <img class="imagen" src="img/search.png" alt="">
+            <input type="text" id="input-search">
         </form>
-    </center>
-    <br>
-    <center>
-        <p>Ofrecido por Google en: 
-            <a href="">Español (Latinoamérica)</a>
-        </p>
-    </center>
-    <br><br>
-    <br><br>
-    <br><br>
-    <br><br><br>
-    <div>
-        Mexico
-    </div>
-    <div>
-        <table>
-            <tr>
-                <td>
-                    <a class="link" href="">Sobre Google</a>
-                </td>
-                <td>
-                    <a class="link" href="">Publicidad</a>
-                </td>
-                <td>
-                    <a class="link" href="">Negocios</a>
-                </td>
-                <td>
-                    <a class="link" href="">Como funciona la Busqueda</a>
-                </td>
-            </tr>
-        </table>
-    </div>
+        <div>
+            <button id="search">Buscar con Google</button>
+            <button id="lucky">Me siento con suerte</button>
+        </div>
+        <p id="idioma">Ofrecido por Google en: <a href="">English</a></p>
+    </main>
+    <footer class="pie">
+        <section id="fs1">
+            <p>México</p>
+        </section>
+        <section id="fs2">
+            <a href="">Sobre Google</a>
+            <a href="">Publicidad</a>
+            <a href="">Negocios</a>
+            <a id="ref" href="">Cómo funciona la Búsqueda</a>
+            <a href="">Privacidad</a>
+            <a href="">Condiciones</a>
+            <a href="">Preferencias</a>
+        </section>
+    </footer>
 </body>
 </html>

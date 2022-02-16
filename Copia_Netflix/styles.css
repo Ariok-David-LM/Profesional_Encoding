@@ -1,0 +1,136 @@
+html{
+    height: 100%;
+}
+
+body{
+    padding: 5px 30px;
+    background-color: #151515;
+    height: 97%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header a img{
+    width: 100px;
+}
+
+.main{
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#perfiles{
+    display: grid;
+    grid-template-areas: 'per1 per2 per3 per4 per5 anadir';
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+#perfil1{
+    grid-area: per1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#perfil2{
+    grid-area: per2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#perfil3{
+    grid-area: per3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#perfil4{
+    grid-area: per4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#perfil5{
+    grid-area: per5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#añadir{
+    grid-area: anadir;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#perfiles div a{
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#perfiles div a img{
+    width: 130px;
+    border-radius: 5px;
+    border: solid 6px #1D1D1D;
+}
+
+#perfiles #añadir a img{
+    width: 70px;
+    border: none;
+    margin: 37px;
+}
+
+.boton{
+    width: 270px;
+    height: 33px;
+    border: solid #636363 2px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #151515;
+    color: #636363;
+}
+
+.boton:active{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+#perfiles div a img:hover{
+    width: 120px;
+    margin: 5px;
+}
+
+#perfiles #añadir a img:hover{
+    width: 76px;
+    margin: 34px;
+}

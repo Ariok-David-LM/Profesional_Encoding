@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+body{
+    background-image: url(img/fondo.png);
+    background-repeat: inherit;
+    background-size: cover;
+    padding: 3%;
+}
+
+.contenedor{
+    display: grid; 
+    height: 590px;
+    grid-template-areas: 'a1 a1 a1 a1 a1 a1 a1'
+    'a2 a2 a2 a2 a2 a2 a2'
+    'a3 a3 a3 a3 a3 a3 a3'
+    'a4 a5 a6 a7 a8 a9 a10';
+    grid-template-columns: auto 5% 5% 5% 5% 5% auto; 
+    grid-template-rows: 20% auto 5% 10%; 
+}
+
+.icono{
+    grid-area: a1;
+    text-align: center;
+}
+
+.icono img{
+    width: 10%;
+}
+
+.presentacion{
+    grid-area: a2;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Charm', cursive;
+    font-size: 150%;
+}
+
+.footer{
+    grid-area: a3;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    width: 100%;
+}
+
+.fb{
+    grid-area: a5;
+    text-align: center;
+}
+
+.insta{
+    grid-area: a6;
+    text-align: center;
+}
+
+.wats{
+    grid-area: a7;
+    text-align: center;
+}
+
+.linked{
+    grid-area: a8;
+    text-align: center;
+}
+
+.github{
+    grid-area: a9;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .contenedor{
+        height: 1000px;
+    }
+
+    .red{
+        width: 200%;
+    }
+}
