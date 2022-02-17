@@ -1,0 +1,222 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    background-color: #151515;
+    background-image: url("img/interstellar.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*navegador*/
+
+.navegador{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(21,21,21,1),rgba(0,0,0,0.04));
+}
+
+#navdiv1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#navdiv1 a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#navdiv1 a:hover{
+    font-weight: bold;
+}
+
+#navdiv1 a img{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#navdiv2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navdiv2 a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#navdiv2 a #user{
+    width: 30px;
+    border-radius: 3px;
+}
+
+#navdiv2 a #userd{
+    margin: 10px;
+}
+
+#navdiv2 a:hover{
+    font-weight: bold;
+}
+
+/*main*/
+
+.main{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.main #sinopsis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main #sinopsis div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4F4F4E;
+}
+
+.main #sinopsis div #logochico{
+    margin-right: 8px;
+    width: 20px;
+    height: 35px;
+}
+
+.main #sinopsis h1{
+    font-size: 65px;
+    color: #4F4F4E;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.main #sinopsis p{
+    color: #4f4f44;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: bold;
+}
+
+.main #sinopsis #botones{
+    margin-top: 20px;
+}
+
+.main #sinopsis #botones .b1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 145px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    border: none;
+}
+
+.main #sinopsis #botones .b2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 180px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.main #clasificacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.main #clasificacion img{
+    width: 24px;
+    height: 24px;
+    border: solid 3px white;
+    border-radius: 100%;
+    margin-bottom: 70px;
+    margin-right: 10px;
+}
+
+.main #clasificacion div{
+    background-color: rgba(103,87,79,0.8);
+    border-left: solid white 3px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin-bottom: 70px;
+}
+
+/*secciones*/
+
+.prueba{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.prueba p{
+    margin: 10px 0px;
+    background-color: rgba(21,21,21,0.3);
+}
+
+.prueba div img{
+    width: 209px;
+}
+
+.prueba div #siguiente{
+    width: 25px;
+    height: 110px;
+}
+
+.prueba div img:hover{
+    width: 199px;
+    margin: 0px 5px;
+}
+
+.prueba div #siguiente:hover{
+    width: 15px;
+    height: 100px;
+}
